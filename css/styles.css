@@ -673,6 +673,8 @@ margin-bottom: 50px;
     position: absolute;
     top: 50%;
     left: 50%;
+    padding-right: 45px;
+    padding-left: 35px;
 
     width: 528px;
     height: 581px;
@@ -697,4 +699,70 @@ margin-bottom: 50px;
     border: 1px solid rgba(0, 0, 0, 0.1);
     cursor: pointer;
 }
+
+.modal-title {
+font-weight: 700;
+font-size: 20px;
+line-height: 1.15;
+text-align: center;
+letter-spacing: 0.03em;
+color: #212121;
+margin-top: 40px;
+margin-bottom: 12px;
+}
+
+.contact-form-input {
+border: 1px solid rgba(33, 33, 33, 0.2);
+border-radius: 4px;
+width: 100%;
+height: 40px;
+}
+
+.contact-form-main {
+font-weight: 400;
+font-size: 12px;
+line-height: 1.17;
+letter-spacing: 0.01em;
+color: #757575;
+}
+
+.contact-form-main:not(:last-child)
+{margin-bottom: 10px}
+
+.contact-form-comment {border: 1px solid rgba(33, 33, 33, 0.2);
+border-radius: 4px;
+width: 100%;
+height: 138px;
+resize: none;
+
+}
+
+.form-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;}
+
+.contact-form-btn {    
+background: #2196F3;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+border-radius: 4px;
+width: 200px;
+height: 50px;
+font-weight: 700;
+font-size: 16px;
+line-height: 1.88;
+letter-spacing: 0.06em;
+color: #FFFFFF;
+margin-top: 30px;
+}
+
+.checkbox-policy {
+font-weight: 400;
+font-size: 14px;
+line-height: 1.71;
+letter-spacing: 0.03em;
+color: #757575;
+}
+
+
 /* --------------------------- /BACKDROP  */
