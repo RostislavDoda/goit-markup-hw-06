@@ -898,7 +898,7 @@ margin-right: 10px;
 }
 
 .checkbox-policy:checked + .contact-form-checkbox-label::before {
-background-image: url(/img/policy-icon/icon-check.svg);
+background-image: url(./img/policy-icon/icon-check.svg);
 background-position: center;
 background-repeat: no-repeat}
 
